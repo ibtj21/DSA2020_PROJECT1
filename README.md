@@ -101,7 +101,7 @@ month	year	monthly_revenue
 3	  2023	  400
 4	  2023	  2000
 ```
--**Insight**: January had the highest revenue, while March saw the lowest
+- **Insight**: January had the highest revenue, while March saw the lowest
 ---
 -**Revenue by Region**
 Shows how revenue is distributed across different regions.
@@ -118,7 +118,7 @@ Midwest	 4500
 East	   3400
 West	   560
 ```
--**Insight**: The Midwest region leads in revenue, indicating strong performance or demand.
+- **Insight**: The Midwest region leads in revenue, indicating strong performance or demand.
 ---
 -**Top Products by Quantity Sold**
 - Identifies the products with the highest sales volume.
@@ -138,8 +138,49 @@ Laptop	       5
 Shoes        	 4
 ```
 -**Insight**: Jeans had the highest quantity sold, suggesting it’s a popular item across regions.
+---
+## Reflection & Discussion Questions
+- *Why use a star schema instead of a normalized schema?*
+```
+- The star schema is preferred in data warehousing for its simplicity and efficiency. Unlike a highly normalized schema, which involves many joined tables, a star schema:
 
+     - Uses fewer joins for queries, leading to faster performance.
 
+     - Organizes data in a way that is easy to understand for business users and analysts.
 
+     - Supports clear relationships between fact and dimension tables, making analysis more straightforward.
+
+- This structure is ideal for analytical workloads and reporting
+
+```
+---
+- *What are the benefits of separating facts from dimensions?*
+```
+- Separating facts from dimensions allows for:
+
+     - Clear distinction between measurable data (facts) like revenue and quantity sold, and descriptive context (dimensions) like product category or store location.
+
+     - Reusability: Dimension tables (e.g., dim_product) can be referenced by multiple fact tables without duplication.
+
+     - Data consistency: Ensures consistent lookups and avoids redundancy across analytical reports.
+
+     - Scalability: It's easier to expand dimensions or add new facts without redesigning the whole schema.
+```
+---
+- *What types of business decisions could this warehouse support?
+```  
+- This data warehouse supports data-driven decisions such as:
+
+      - Product strategy: Identifying best-performing product categories or top-selling items.
+
+      - Sales planning: Analyzing monthly trends to forecast inventory and marketing needs.
+
+      - Regional performance: Understanding which regions generate the most revenue to target promotions.
+
+      - Store-level operations: Monitoring sales performance by store to optimize staffing, stock levels, and promotions.
+
+-**These insights help stakeholders make informed, evidence-based business decisions.**  
+```
+---
 
 
