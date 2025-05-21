@@ -37,4 +37,35 @@ The data warehouse schema consists of:
   - `dim_store`: Contains store details (store_id, store_name, city, region).
 
 ---
+## Project Structure  
+/project-root
+│
+├── schema.sql # SQL script to create tables
+├── data/ # Folder containing CSV files
+│ ├── dim_date.csv
+│ ├── dim_product.csv
+│ ├── dim_store.csv
+│ └── fact_sales.csv
+├── queries.sql # SQL queries for analysis
+└── README.md # This documentation file
+---
 
+---
+
+## How to Run  
+1. Install PostgreSQL and pgAdmin.  
+2. Create a new database, e.g., `retail_dw`.  
+3. Execute `schema.sql` to create the required tables.  
+4. Use `Copy` commands in pgAdmin or psql to import CSV data into each table.  
+5. Run queries from `queries.sql` to generate business reports.
+
+---
+
+## Key Analytical Queries & Insights  
+
+- **Total Revenue by Product Category**  
+  ```sql
+  SELECT p.category, SUM(f.revenue) AS total_revenue
+  FROM fact_sales f
+  JOIN dim_product p ON f.product_id = p.product_id
+  GROUP BY p.category;
