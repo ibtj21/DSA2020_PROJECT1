@@ -82,4 +82,38 @@ Footwear	  400
 
 Apparel	    560
 ```
- Insight: Electronics is the top-performing category by a significant margin, suggesting a focus area for marketing or inventory planning.
+- **Insight**: Electronics is the top-performing category by a significant margin, suggesting a focus area for marketing or inventory planning.
+---
+-**Monthly Sales Trends**
+This query tracks revenue trends across months in 2023.
+ ```sql
+SELECT d.month, d.year, SUM(f.revenue) AS monthly_revenue
+FROM fact_sales f
+JOIN dim_date d ON f.date_id = d.date_id
+GROUP BY d.year, d.month
+ORDER BY d.year, d.month;
+
+- **Results**
+```
+month	year	monthly_revenue
+1	  2023	  5500
+2	  2023	  560
+3	  2023	  400
+4	  2023	  2000
+```
+-**Insight**: January had the highest revenue, while March saw the lowest
+---
+Revenue by Region
+Shows how revenue is distributed across different regions.
+```sql
+SELECT s.region, SUM(f.revenue) AS region_revenue
+FROM fact_sales f
+JOIN dim_store s ON f.store_id = s.store_id
+GROUP BY s.region;
+
+Results
+region	region_revenue
+Midwest	 4500
+East	   3400
+West	   560
+-**Insight**: The Midwest region leads in revenue, indicating strong performance or demand.
