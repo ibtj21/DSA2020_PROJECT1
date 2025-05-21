@@ -37,7 +37,8 @@ The data warehouse schema consists of:
   - `dim_store`: Contains store details (store_id, store_name, city, region).
 
 ---
-## Project Structure  
+## Project Structure 
+```
 /project-root
 │
 ├── schema.sql # SQL script to create tables
@@ -48,6 +49,7 @@ The data warehouse schema consists of:
 │ └── fact_sales.csv
 ├── queries.sql # SQL queries for analysis
 └── README.md # This documentation file
+```
 ---
 
 ---
