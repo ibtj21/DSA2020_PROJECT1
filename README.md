@@ -92,7 +92,7 @@ FROM fact_sales f
 JOIN dim_date d ON f.date_id = d.date_id
 GROUP BY d.year, d.month
 ORDER BY d.year, d.month;
-
+```
 - **Results**
 ```
 month	year	monthly_revenue
@@ -100,7 +100,7 @@ month	year	monthly_revenue
 2	  2023	  560
 3	  2023	  400
 4	  2023	  2000
-
+```
 -**Insight**: January had the highest revenue, while March saw the lowest
 ---
 -**Revenue by Region**
@@ -117,4 +117,29 @@ region	region_revenue
 Midwest	 4500
 East	   3400
 West	   560
+```
 -**Insight**: The Midwest region leads in revenue, indicating strong performance or demand.
+---
+-**Top Products by Quantity Sold**
+- Identifies the products with the highest sales volume.
+```sql
+SELECT p.name, SUM(f.quantity_sold) AS total_quantity
+FROM fact_sales f
+JOIN dim_product p ON f.product_id = p.product_id
+GROUP BY p.name
+ORDER BY total_quantity DESC;
+```
+-**Results**
+```
+Product Name	Total Quantity Sold
+Jeans	         7
+Phone	         5
+Laptop	       5
+Shoes        	 4
+```
+-**Insight**: Jeans had the highest quantity sold, suggesting it’s a popular item across regions.
+
+
+
+
+
