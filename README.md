@@ -100,18 +100,19 @@ month	year	monthly_revenue
 2	  2023	  560
 3	  2023	  400
 4	  2023	  2000
-```
+
 -**Insight**: January had the highest revenue, while March saw the lowest
 ---
-Revenue by Region
+-**Revenue by Region**
 Shows how revenue is distributed across different regions.
 ```sql
 SELECT s.region, SUM(f.revenue) AS region_revenue
 FROM fact_sales f
 JOIN dim_store s ON f.store_id = s.store_id
 GROUP BY s.region;
-
-Results
+```
+-**Results**
+```
 region	region_revenue
 Midwest	 4500
 East	   3400
