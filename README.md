@@ -65,9 +65,20 @@ The data warehouse schema consists of:
 
 ## Key Analytical Queries & Insights  
 
-- **Total Revenue by Product Category**  
+- **Total Revenue by Product Category**
+- This analysis helps identify which product categories contribute most to overall revenue.
   ```sql
   SELECT p.category, SUM(f.revenue) AS total_revenue
   FROM fact_sales f
   JOIN dim_product p ON f.product_id = p.product_id
   GROUP BY p.category;
+ - **Results**
+category	total_revenue
+
+Electronics	7500
+
+Footwear	  400
+
+Apparel	    560
+
+ Insight: Electronics is the top-performing category by a significant margin, suggesting a focus area for marketing or inventory planning.
