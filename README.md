@@ -73,6 +73,7 @@ The data warehouse schema consists of:
   JOIN dim_product p ON f.product_id = p.product_id
   GROUP BY p.category;
  - **Results**
+```
 category	total_revenue
 
 Electronics	7500
@@ -80,5 +81,5 @@ Electronics	7500
 Footwear	  400
 
 Apparel	    560
-
+```
  Insight: Electronics is the top-performing category by a significant margin, suggesting a focus area for marketing or inventory planning.
