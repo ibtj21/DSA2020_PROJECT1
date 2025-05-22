@@ -1,16 +1,15 @@
 # DSA2040_PROJECT1:Retail Data Warehouse
 ## Table of Contents
- [Project Descreption](#project-Descreption)  
- [Objective](#objective)  
- [Tools](#tools)  
- [Contents](#contents)  
- [How to Use](#how-to-use)  
- [Key Analytical Queries & Insights](#key-analytical-queries--insights)  
- [Reflection & Discussion](#reflection--discussion)  
- [Collaborators](#collaborators)/Team members  
- [License](#license)  
+- [Project Descreption](#project-descreption)  
+- [Objective](#objective)  
+- [Tools](#tools)  
+- [Contents](#contents)  
+- [How to Use](#how-to-use)  
+- [Key Analytical Queries & Insights](#key-analytical-queries--insights)  
+- [Reflection & Discussion](#reflection--discussion)  
+- [Collaborators](#collaborators) 
+- [License](#license)  
 
----
 
 ### Project Descreption
 - This project builds a mini datawarehouse for a fictional retail company to analyze sales performance by product , store , and time.
