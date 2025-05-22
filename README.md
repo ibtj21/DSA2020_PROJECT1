@@ -56,9 +56,9 @@
 5. Run queries from `queries.sql` to analyze.
 
 ---
----
-
 ## Star Schema Design
+
+```
         +-------------+
         |  dim_date   |
         +-------------+
@@ -66,7 +66,8 @@
 +-------------+     +-------------+     +-------------+
 | dim_store   |-----| fact_sales  |-----| dim_product |
 +-------------+     +-------------+     +-------------+
----
+```
+
 ## Reflection & Discussion
 
 - *Why use a star schema instead of a normalized schema?*
