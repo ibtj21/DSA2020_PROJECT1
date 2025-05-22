@@ -3,7 +3,7 @@
 - [Project Descreption](#project-descreption)  
 - [Objective](#objective)  
 - [Tools](#tools)  
-- [Contents](#contents)  
+- [Repository Contents](#repository-contents)
 - [How to Use](#how-to-use)   
 - [Reflection & Discussion Questions](#reflection--discussion-questions)  
 - [Collaborators / Team members](#collaborators--team-members)  
@@ -29,7 +29,7 @@
 
 ---
 
-## Contents
+## Repository Contents
 ```
 /project-root
 │
