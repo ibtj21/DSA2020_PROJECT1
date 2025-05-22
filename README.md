@@ -7,8 +7,9 @@
 - [How to Use](#how-to-use)  
 - [Key Analytical Queries & Insights](#key-analytical-queries--insights)  
 - [Reflection & Discussion](#reflection--discussion)  
-- [Collaborators](#collaborators) 
+- [Collaborators](#collaborators)/Team members  
 - [License](#license)  
+
 
 
 ### Project Descreption
