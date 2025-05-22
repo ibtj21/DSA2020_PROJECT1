@@ -5,7 +5,7 @@
 - [Tools](#tools)  
 - [Repository Contents](#repository-contents)
 - [How to Use](#how-to-use)   
-- [Reflection & Discussion Questions](#reflection--discussion-questions)  
+- [Reflection & Discussion](#reflection--discussion)  
 - [Collaborators / Team members](#collaborators--team-members)  
 - [License](#license)  
   
@@ -55,7 +55,7 @@
 5. Run queries from `queries.sql` to analyze.
 
 ---
-## Reflection & Discussion Questions
+## Reflection & Discussion
 
 - *Why use a star schema instead of a normalized schema?*
 ```
