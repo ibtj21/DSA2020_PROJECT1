@@ -6,12 +6,10 @@
 - [Contents](#contents)  
 - [How to Use](#how-to-use)  
 - [Key Analytical Queries & Insights](#key-analytical-queries--insights)  
-- [Reflection & Discussion](#reflection--discussion)  
-- [Collaborators](#collaborators)/Team members  
+- [Reflection & Discussion Questions](#reflection--discussion-questions)  
+- [Collaborators / Team members](#collaborators--team-members)  
 - [License](#license)  
-
-
-
+  
 ### Project Descreption
 - This project builds a mini datawarehouse for a fictional retail company to analyze sales performance by product , store , and time.
 
