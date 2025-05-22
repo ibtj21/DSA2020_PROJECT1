@@ -193,8 +193,8 @@ Shoes        	 4
 | Levin Ekuam                 | 669913     | [@LEVINO](https://github.com/LEVINO)             |
 | Hana Hailemariam Gashaw    | 670555     | [@ibtj21](https://github.com/ibtj21)             |
 | Ted Korir                  | 670340     | [@tk2814](https://github.com/tk2814)             |
-| Trizah                     | 11223344   | [@Trizah250000](https://github.com/Trizah250000) |
-| Alice Otieno               | 11223344   | [@Irungu05](https://github.com/Irungu05)         |
+| Trizah Nzioka              | 670074     | [@Trizah250000](https://github.com/Trizah250000) |
+| Angela Irungu              | 669289     | [@Irungu05](https://github.com/Irungu05)         |
 
 ---
 
