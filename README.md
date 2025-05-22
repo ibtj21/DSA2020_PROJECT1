@@ -40,7 +40,7 @@
 │ ├── dim_product.csv
 │ ├── dim_store.csv
 │ └── fact_sales.csv
-├── queries.sql # SQL queries for analysis
+├── queries.sql : SQL queries for analysis
 ├── load_data.sql: SQL commands to load data from CSVs
 ├── queries_results: Exported CSV files, which are the result of the query
 ├── README.md : This documentation file
