@@ -1,3 +1,4 @@
+# GROUP 6
 # DataWarehousing and mining(Project 001)
 ## Retail sales data warehousing project
 ## Table of Contents
@@ -167,7 +168,7 @@ Shoes        	 4
      - Scalability: It's easier to expand dimensions or add new facts without redesigning the whole schema.
 ```
 ---
-- *What types of business decisions could this warehouse support?
+- *What types of business decisions could this warehouse support?*
 ```  
 - This data warehouse supports data-driven decisions such as:
 
@@ -179,8 +180,25 @@ Shoes        	 4
 
       - Store-level operations: Monitoring sales performance by store to optimize staffing, stock levels, and promotions.
 
--**These insights help stakeholders make informed, evidence-based business decisions.**  
+- These insights help stakeholders make informed, evidence-based business decisions  
 ```
 ---
 
+##  Collaborators
+```
+| Name           | Student ID | GitHub Username                         |
+|----------------|------------|------------------------------------------|
+|Selmah Tzindori | 669602     | [@SelmahT](https://github.com/SelmahT)   |
+|Levin  Ekuam    | 669913     | [@LEVINO](https://github.com/LEVINO)     |
+|Hana Hailemariam Gashaw   | 670555   | [@ibtj21](https://github.com/ibtj21) |
+|Ted Korir       | 670340     | [@tk2814](https://github.com/tk2814)     |
+|Trizah   | 11223344   | [@Trizah250000](https://github.com/Trizah250000) |
+| Alice Otieno   | 11223344   | [@Irungu05](https://github.com/Irungu05) |
+```
+---
+
+##  License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this project with proper attribution.
 
