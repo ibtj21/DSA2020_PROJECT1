@@ -1,4 +1,4 @@
-# DSA2040_PROJECT1:Retail Data Warehouse
+# DSA2040_PROJECT_1 : Retail Data Warehouse
 ## Table of Contents
 - [Project Descreption](#project-descreption)  
 - [Objective](#objective)  
