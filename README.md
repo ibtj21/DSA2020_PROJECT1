@@ -185,16 +185,17 @@ Shoes        	 4
 ---
 
 ##  Collaborators
-```
-| Name           | Student ID | GitHub Username                         |
-|----------------|------------|------------------------------------------|
-|Selmah Tzindori | 669602     | [@SelmahT](https://github.com/SelmahT)   |
-|Levin  Ekuam    | 669913     | [@LEVINO](https://github.com/LEVINO)     |
-|Hana Hailemariam Gashaw   | 670555   | [@ibtj21](https://github.com/ibtj21) |
-|Ted Korir       | 670340     | [@tk2814](https://github.com/tk2814)     |
-|Trizah   | 11223344   | [@Trizah250000](https://github.com/Trizah250000) |
-| Alice Otieno   | 11223344   | [@Irungu05](https://github.com/Irungu05) |
-```
+
+
+| Name                        | Student ID | GitHub Username                                 |
+|-----------------------------|------------|--------------------------------------------------|
+| Selmah Tzindori             | 669602     | [@SelmahT](https://github.com/SelmahT)           |
+| Levin Ekuam                 | 669913     | [@LEVINO](https://github.com/LEVINO)             |
+| Hana Hailemariam Gashaw    | 670555     | [@ibtj21](https://github.com/ibtj21)             |
+| Ted Korir                  | 670340     | [@tk2814](https://github.com/tk2814)             |
+| Trizah                     | 11223344   | [@Trizah250000](https://github.com/Trizah250000) |
+| Alice Otieno               | 11223344   | [@Irungu05](https://github.com/Irungu05)         |
+
 ---
 
 ##  License
