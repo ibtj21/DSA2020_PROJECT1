@@ -4,7 +4,8 @@
 - [Objective](#objective)  
 - [Tools](#tools)  
 - [Repository Contents](#repository-contents)
-- [How to Use](#how-to-use)   
+- [How to Use](#how-to-use)
+- [Star Schema Design](#Star-Schema-Design)
 - [Reflection & Discussion](#reflection--discussion)  
 - [Collaborators / Team members](#collaborators--team-members)  
 - [License](#license)  
@@ -54,6 +55,17 @@
 4. Load CSV data using 'load_data.sql'.  
 5. Run queries from `queries.sql` to analyze.
 
+---
+---
+
+## Star Schema Design
+        +-------------+
+        |  dim_date   |
+        +-------------+
+              |
++-------------+     +-------------+     +-------------+
+| dim_store   |-----| fact_sales  |-----| dim_product |
++-------------+     +-------------+     +-------------+
 ---
 ## Reflection & Discussion
 
