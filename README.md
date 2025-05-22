@@ -34,17 +34,18 @@
 ```
 /project-root
 │
-├── schema.sql # SQL script to create tables
-├── data/ # Folder containing provided CSV files
+├── schema.sql  : SQL script to create tables
+├── data : Folder containing provided CSV files
 │ ├── dim_date.csv
 │ ├── dim_product.csv
 │ ├── dim_store.csv
 │ └── fact_sales.csv
 ├── queries.sql # SQL queries for analysis
-load_data.sql :sql commands to load data from csvs
-queries_results : exported csv files which are the result of query
-└── README.md # This documentation file
-```
+├── load_data.sql: SQL commands to load data from CSVs
+├── queries_results: Exported CSV files, which are the result of the query
+├── README.md : This documentation file
+└── License
+```   
 
 ---
 
