@@ -105,6 +105,7 @@
 ---
 
 - **Sales Planning:**  Analyzing monthly trends to forecast inventory and marketing needs.
+
    For example, the *Monthly Sales Trends* query reveals that January 2023 had the highest revenue (5,500), while March had the lowest (400).
 
   | Month | Year | Monthly Revenue |
@@ -133,6 +134,7 @@
 ---
 
 - **Store-Level Operations:**  Monitoring sales performance by store to optimize staffing, stock levels, and promotions.
+  
    For example, insights from *Top Products by Quantity Sold* reveal that Jeans is the best-selling product, followed by Phones and Laptops.
 
   | Product Name | Total Quantity Sold |
