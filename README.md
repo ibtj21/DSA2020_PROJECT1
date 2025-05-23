@@ -32,16 +32,15 @@
 
 ## Repository Contents
 ```
-/project-root
-│
-├── schema.sql  : SQL script to create tables
+├── SQL_scripts
+│ ├── schema.sql  : SQL script to create tables
+│ ├── load_data.sql: SQL commands to load data from CSVs
+│ ├── queries.sql : SQL queries for analysis
 ├── data : Folder containing provided CSV files
 │ ├── dim_date.csv
 │ ├── dim_product.csv
 │ ├── dim_store.csv
 │ └── fact_sales.csv
-├── queries.sql : SQL queries for analysis
-├── load_data.sql: SQL commands to load data from CSVs
 ├── queries_results: Exported CSV files, which are the result of the query
 ├── README.md : This documentation file
 └── License
