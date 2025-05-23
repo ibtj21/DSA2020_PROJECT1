@@ -35,7 +35,7 @@
 ├── SQL_scripts
 │ ├── schema.sql  : SQL script to create tables
 │ ├── load_data.sql: SQL commands to load data from CSVs
-│ ├── queries.sql : SQL queries for analysis
+│ └── queries.sql : SQL queries for analysis
 ├── data : Folder containing provided CSV files
 │ ├── dim_date.csv
 │ ├── dim_product.csv
