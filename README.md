@@ -89,7 +89,7 @@
 
 - *What types of business decisions could this warehouse support?*
 
-- **Product Strategy:**  
+- **Product Strategy:**  Identifying best-performing product categories or top-selling items.
   For example, the *Total Revenue by Product Category* query shows that Electronics generates significantly more revenue (7,500) compared to Footwear (400) and Apparel (560).
 
   | Category    | Total Revenue |
@@ -102,8 +102,8 @@
 
 ---
 
-- **Sales Planning:**  
-  The *Monthly Sales Trends* query reveals that January 2023 had the highest revenue (5,500), while March had the lowest (400).
+- **Sales Planning:**  Analyzing monthly trends to forecast inventory and marketing needs.
+   For example, the *Monthly Sales Trends* query reveals that January 2023 had the highest revenue (5,500), while March had the lowest (400).
 
   | Month | Year | Monthly Revenue |
   |-------|------|-----------------|
@@ -116,8 +116,9 @@
 
 ---
 
-- **Regional Performance:**  
-  The *Revenue by Region* analysis indicates the Midwest region leads with 4,500 in revenue, followed by East and West.
+- **Regional Performance:** Understanding which regions generate the most revenue to target promotions.
+  
+   For example, the *Revenue by Region* analysis indicates the Midwest region leads with 4,500 in revenue, followed by East and West.
 
   | Region  | Region Revenue |
   |---------|----------------|
@@ -129,8 +130,8 @@
 
 ---
 
-- **Store-Level Operations:**  
-  Insights from *Top Products by Quantity Sold* reveal that Jeans is the best-selling product, followed by Phones and Laptops.
+- **Store-Level Operations:**  Monitoring sales performance by store to optimize staffing, stock levels, and promotions.
+   For example, insights from *Top Products by Quantity Sold* reveal that Jeans is the best-selling product, followed by Phones and Laptops.
 
   | Product Name | Total Quantity Sold |
   |--------------|---------------------|
