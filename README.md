@@ -89,8 +89,10 @@
 
 - *What types of business decisions could this warehouse support?*
 
-- **Product Strategy:**  Identifying best-performing product categories or top-selling items.
+- **Product Strategy:** Identifying best-performing product categories or top-selling items.  
+
   For example, the *Total Revenue by Product Category* query shows that Electronics generates significantly more revenue (7,500) compared to Footwear (400) and Apparel (560).
+
 
   | Category    | Total Revenue |
   |-------------|---------------|
