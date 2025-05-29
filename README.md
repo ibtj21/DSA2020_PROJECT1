@@ -67,7 +67,7 @@
 +-------------+     +-------------+     +-------------+
 ```
 
-## Reflection & Discussion
+## Reflection and Discussions
 
 - *Why use a star schema instead of a normalized schema?*
 ```
