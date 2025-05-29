@@ -155,7 +155,7 @@
 | Name                        | Student ID | GitHub Username                                 |
 |-----------------------------|------------|--------------------------------------------------|
 | Selmah Tzindori             | 669602     | [@SelmahT](https://github.com/SelmahT)           |
-| Levin Ekuam                 | 669913     | [@LEVINO](https://github.com/LEVINO)             |
+| Levin Ekuam                 | 669913     | [@LEVIN0](https://github.com/LEVIN0)             |
 | Hana Hailemariam Gashaw    | 670555     | [@ibtj21](https://github.com/ibtj21)             |
 | Ted Korir                  | 670340     | [@tk2814](https://github.com/tk2814)             |
 | Trizah Nzioka              | 670074     | [@Trizah250000](https://github.com/Trizah250000) |
