@@ -25,7 +25,7 @@
 ### Tools 
 - DBMS: PostgreSQL (version 17)  
 - SQL Client: pgAdmin  
-- Languages: SQL  
+- Languages : SQL
 - provided csv Files: dim_date.csv, dim_product.csv, dim_store.csv, fact_sales.csv
 
 ---
